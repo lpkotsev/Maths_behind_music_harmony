@@ -1,0 +1,152 @@
+Final Project
+The Mathematics Behind Music and Harmony
+1. Introduction
+
+Music and mathematics have been closely connected for thousands of years. Ancient mathematicians such as Pythagoras discovered that musical harmony is governed by simple numerical ratios between sound frequencies.
+
+When two musical notes sound pleasant together (a consonance), their frequencies often form simple ratios such as 2:1 or 3:2. These ratios form the mathematical foundation of musical scales, chords, and harmony.
+
+Problem Statement
+
+The goal of this project is to explore:
+
+The mathematical relationship between frequency ratios and musical harmony
+
+How musical scales are constructed mathematically
+
+How harmony can be simulated and analyzed using Python
+
+Objectives
+
+The project will:
+
+Explain the mathematics behind musical intervals
+
+Implement frequency ratio calculations
+
+Generate musical scales mathematically
+
+Simulate harmonic relationships
+
+Visualize the mathematical structure of music
+
+2. Sound and Frequency
+
+Sound is a wave that vibrates at a specific frequency.
+
+Frequency is measured in Hertz (Hz) and represents the number of vibrations per second.
+
+Example frequencies:
+
+Note	Frequency (Hz)
+A4	440
+A5	880
+A3	220
+
+If we compare A4 and A5:
+
+880
+440
+=
+2
+440
+880
+	​
+
+=2
+
+This ratio 2:1 is called an octave.
+
+Mathematical Representation
+
+If a note has frequency 
+𝑓
+f, the octave above it has frequency:
+
+𝑓
+𝑜
+𝑐
+𝑡
+𝑎
+𝑣
+𝑒
+=
+2
+𝑓
+f
+octave
+	​
+
+=2f
+3. Musical Intervals and Ratios
+
+An interval is the distance between two musical notes.
+
+Some important intervals and their mathematical ratios:
+
+Interval	Frequency Ratio
+Octave	2:1
+Perfect Fifth	3:2
+Perfect Fourth	4:3
+Major Third	5:4
+Minor Third	6:5
+
+These ratios explain why some notes sound harmonious together.
+
+Example
+
+If A4 = 440 Hz
+
+Perfect fifth:
+
+440
+×
+3
+2
+=
+660
+ Hz
+440×
+2
+3
+	​
+
+=660 Hz
+4. Mathematical Construction of Musical Scales
+
+Modern Western music typically uses the 12-tone equal temperament system.
+
+In this system:
+
+An octave is divided into 12 equal steps
+
+Each step multiplies the frequency by:
+
+2
+1
+/
+12
+2
+1/12
+
+Thus, the frequency of a note 
+𝑛
+n semitones above a base frequency 
+𝑓
+f is:
+
+𝑓
+𝑛
+=
+𝑓
+×
+2
+𝑛
+/
+12
+f
+n
+	​
+
+=f×2
+n/12
